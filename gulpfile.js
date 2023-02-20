@@ -11,6 +11,7 @@ import svgo from 'gulp-svgmin';
 import svgstore from 'gulp-svgstore';
 import del from 'del';
 import browser from 'browser-sync';
+import bs from 'browser-sync'
 
 // Styles
 
@@ -107,11 +108,13 @@ return del('build');
 const server = (done) => {
 browser.init({
 server: {
-baseDir: 'build'
+baseDir: 'build',
 },
+port: 5500,
 cors: true,
 notify: false,
 ui: false,
+reloadOnRestart: true,
 });
 done();
 }

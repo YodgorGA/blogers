@@ -1,0 +1,15 @@
+По идее тут должно быть 
+192.png
+512.png
+apple.png
+icon.svg
+
+manifest.webmanifest
+
+// {
+//   "icons": [
+//     { "src": "img/favicons/192.png", "type": "image/png", "sizes": "192x192" },
+//     { "src": "img/favicons/512.png", "type": "image/png", "sizes": "512x512" }
+//   ]
+// }
+
