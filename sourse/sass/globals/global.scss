@@ -1,0 +1,25 @@
+@use "./blocks/variables.scss" as *;
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 auto;
+  background-color: $white-color;
+  position: relative;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
